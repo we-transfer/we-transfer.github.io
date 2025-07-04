@@ -1,0 +1,144 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Hide scrollbars for the main layout */
+}
+
+.bg-yellow-200 {
+    background-color: rgb(239 223 109) !important;
+}
+
+.aut-message {
+    margin-bottom: 25px;
+}
+
+.mb-12 {
+    margin-bottom: 2rem !important;
+}
+
+.text-xl {
+    font-size: 1.2rem !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 15px;
+    display: none;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    text-align: center;
+    background-color: #ffede9;
+    padding: 16px;
+    border-radius: 0.5rem;
+}
+
+.login-message {
+    color: green;
+    font-size: 15px;
+    display: none;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #ffede9;
+    padding: 16px;
+    border-radius: 0.5rem;
+}
+
+.max-w-sm {
+    max-width: 22rem !important;
+}
+
+.border-up {
+    border-top: 1px solid #949494;
+}
+
+.border-down {
+    border-bottom: 1px solid #949494;
+}
+
+
+/* Custom styles for the plus icon */
+.plus-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.plus-icon::before,
+.plus-icon::after {
+    content: '';
+    position: absolute;
+    background-color: #3b82f6;
+    /* Blue color */
+    border-radius: 9999px;
+}
+
+.plus-icon::before {
+    width: 2px;
+    height: 16px;
+    top: 4px;
+    left: 11px;
+}
+
+.plus-icon::after {
+    width: 16px;
+    height: 2px;
+    top: 11px;
+    left: 4px;
+}
+
+/* Custom style for the three dots icon */
+.three-dots-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 24px;
+    height: 24px;
+}
+
+.three-dots-icon::before,
+.three-dots-icon::after,
+.three-dots-icon-middle {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #6b7280;
+    /* Gray color */
+    border-radius: 50%;
+}
+
+.three-dots-icon-middle {
+    margin: 0 2px;
+}
+
+.flex-1 {
+    flex: auto !important;
+}
+
+@media (min-width: 768px) {
+    .marketing-content-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .left-login-side .flex {
+        display: none;
+    }
+
+    .login-nav {
+        display: none;
+    }
+
+    .marketing-content-mobile {
+        padding-top: 55px;
+    }
+
+    .marketing-content {
+        display: none;
+    }
+}
