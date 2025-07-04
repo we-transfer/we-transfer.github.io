@@ -37,8 +37,8 @@ body {
 .max-h-20 {
     max-height: 5rem;
     padding: 0.5em;
-    background-color: #fff;
-    margin-bottom: 20em;
+    background-color: #fdfdfd;
+    margin-bottom: 1em;
 }
 
 /* Custom styles for the overlay */
